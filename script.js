@@ -41,7 +41,53 @@
 // argument get-> function==> ...(rest operator)
 
 
+// array destructuring
+// let arr=[10,20,30,40]
 
-let arr=[10,20,30,40]
+// let [var1, var2, var3, var4]=arr
+
+// console.log(var3);
+
+
+
+// object destructuring
+// let obj={
+//     name:"Zeeshan", 
+//     age:"23"
+// }
+
+// let display=({name, age})=>{
+//     console.log(name); 
+// }
+
+// display(obj)
+ Sum()
+
+// promises
+
+// resolve, reject
+
+
+// try{
+
+// }
+// catch{
+
+// }
+
+
+let data=fetch('https://jsonplaceholder.typicode.com/posts/').then(
+    resp=>resp.json()
+).then(data=>console.log(data))
+
+
+
+// async await
+
+
+// synchronus language (handle one thing at a time)
+// let Sum= async ()=>{
+// await 
+// }
 
 
